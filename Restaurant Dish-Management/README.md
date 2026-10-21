@@ -31,7 +31,7 @@ Open the URL printed by Vite (usually http://localhost:5173). The backend runs o
 - Search dishes by name
 - View the API health endpoint
 
-## Interview task (do not implement before the simulation starts)
+## Interview task (do not implement before the simulation starts)-Solved
 Implement **Add a New Dish** end-to-end. Before coding:
 1. Explain the current application structure and request flow.
 2. Identify the exact frontend and backend files that need changes.
