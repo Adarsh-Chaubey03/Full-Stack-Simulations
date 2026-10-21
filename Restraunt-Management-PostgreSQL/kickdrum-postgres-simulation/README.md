@@ -37,7 +37,7 @@ Node.js 18+ and PostgreSQL 14+.
 - `GET /api/dishes` lists dishes, with optional `?search=`.
 - PostgreSQL schema and seed script are included.
 
-## Interview task (leave incomplete until practice starts)
+## Interview task - Solved
 Implement **Add a New Dish** end-to-end:
 1. Inspect the repository and explain the request flow.
 2. Write `Decisions.md` with Backend, Frontend, and Database sections.
