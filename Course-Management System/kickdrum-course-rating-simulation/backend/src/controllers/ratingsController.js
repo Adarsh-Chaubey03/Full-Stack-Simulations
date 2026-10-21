@@ -10,15 +10,15 @@ const listRatingsForStudent = async (req, res) => {
   try {
     const result = await pool.query(
       `SELECT
-         cr.rating_id,
+         cr.id AS rating_id,
          cr.rating,
          cr.review,
          cr.created_at,
-         c.course_id,
-         c.course_name,
-         c.description
+         c.id AS course_id,
+         c.title AS course_title,
+         c.instructor
        FROM course_ratings cr
-       JOIN courses c ON cr.course_id = c.course_id
+       JOIN courses c ON cr.course_id = c.id
        WHERE cr.student_id = $1
        ORDER BY cr.created_at DESC`,
       [studentId]
